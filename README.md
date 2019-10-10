@@ -14,9 +14,9 @@ Para una simulación con un dt de 0.001 segundos, un t max de 0.5 segundos y dia
 
 ## Tiempos de Procesamiento
 
-- Con 1 Particula:
-- Con 2 Particulas:
-- Con 3 Particulas:
-- Con 5 Particulas:
-- Con 10 Particulas:
-- Con 20 Particulas:
+- Con 1 Particula: 1.3 Segundos
+- Con 2 Particulas: 1.8 Segundos
+- Con 3 Particulas: 2.8 Segundos
+- Con 5 Particulas: 7.2 Segundos
+- Con 10 Particulas: 37.8 Segundos
+- Con 20 Particulas: 103 Segundos
