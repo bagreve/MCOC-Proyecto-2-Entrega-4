@@ -1,6 +1,5 @@
 # MCOC-Proyecto-2-Entrega-4
-Tiempos de procesamiento  
-Para una simulación con un dt de 0.001 segundos, un t max de 0.5 segundos y diametro de particula de 5.6 mm.
+Tiempos de procesamiento para una simulación con un dt de 0.001 segundos, un t max de 0.5 segundos y diametro de particula de 5.6 mm.
 
 ## Caracteristicas del Pc:
 
