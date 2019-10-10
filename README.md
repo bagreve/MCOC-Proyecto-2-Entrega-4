@@ -13,6 +13,7 @@ Para una simulación con un dt de 0.001 segundos, un t max de 0.5 segundos y dia
 - Tipo de sistema: Sistema operativo de 64 bits, procesador x64
 
 ## Tiempos de Procesamiento
+Los tiempos de procesamiento del codigo son variables, es por eso que, se toman tres tiempos distintos y se realiza un promedio.  
 
 - Con 1 Particula: 1.3 Segundos
 ![1 particula](https://user-images.githubusercontent.com/53497030/66605532-a5b8af80-eb86-11e9-8f92-e86711682c50.png)
