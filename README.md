@@ -1,5 +1,5 @@
 # MCOC-Proyecto-2-Entrega-4
-Tiempos de procesamiento para una simulación con un dt de 0.001 segundos, un t max de 0.5 segundos y diametro de particula de 5.6 mm.
+Tiempos de procesamiento para una simulación son con un dt de 0.0001 segundos, un t max de 2. segundos y diametro de particula de 0.15 mm.
 
 ## Caracteristicas del Pc:
 
@@ -12,9 +12,9 @@ Tiempos de procesamiento para una simulación con un dt de 0.001 segundos, un t 
 - Tipo de sistema: Sistema operativo de 64 bits, procesador x64
 
 ## Tiempos de Procesamiento
-Los tiempos de procesamiento del codigo son variables debido a que el procesador realiza distintas tareas mientras corre el codigo haciendo que demore algunas veces más y otras menos en finalizar, es por eso que se toman tres tiempos distintos y se realiza un promedio. 
-Los graficos expuestos son el comportamiento de las particulas en el eje x e y en el timpo de 0.5 segundos, donde se muestran las reacciones con las fuerzas de lift, drag y masa mientras se observan colisiones entre particulas y con el suelo.
-Los resultados no representan del todo la realidad,en primer lugar porque no se concideran fuerzas como Magnus y Basset, además de no ser del todo reales las constantes de lift, drag ni de masa idealizandolas. Al momento del impacto se consideraron "resortes" que le aplicaban fuerzas en la direccion opuesta. Se usaron particulas perfectamente esfericas y por último
+Los tiempos de procesamiento del codigo son variables debido a que el procesador realiza distintas tareas mientras corre el codigo haciendo que demore algunas veces más y otras menos en finalizar, pero debido al tiempo disponible y la tardanza en procezar todo el codigo se procesará solo una vez cada codigo. El tiempo con diferente cantidad de particulas es exponencial debido a que mientras más particulas se tendran que realizar mas ciclos como es el caso de comparar radios y saber si chocan con el suelo o entre particulas.
+Los graficos expuestos son el comportamiento de las particulas en el eje x e y en el tiempo de 2. segundos, donde se muestran las reacciones con las fuerzas de lift, drag y masa mientras se observan colisiones entre particulas y con el suelo creado por particulas del mismo diametro.
+Los resultados no representan del todo la realidad, en primer lugar porque no se concideran fuerzas como Magnus y Basset, además de no ser del todo reales las constantes de lift, drag ni de masa, idealizandolas. Al momento del impacto se consideraron "resortes" que le aplicaban fuerzas en la direccion opuesta. Se usaron particulas perfectamente esfericas y por último el suelo es una cama de particulas circularesen perfecto orden y sin capacidad de movimiento en ninguna direccion.
 
 - Con 1 Particula: 1.3 Segundos
 ![1 particula](https://user-images.githubusercontent.com/53497030/66605532-a5b8af80-eb86-11e9-8f92-e86711682c50.png)
