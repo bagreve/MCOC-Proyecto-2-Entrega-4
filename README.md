@@ -29,6 +29,13 @@ Los resultados no representan del todo la realidad, en primer lugar porque no se
 
 ## Resultados del profesor:
 El primer gráfico, al igual que los nuestros muestra la posicion de las particulas en los ejes x e y. El segundo, consiste en ver la posicion de las particulas junto con el gradiente de velocidad del flujo y el último grafico es sobre las velocidades de las particulas en los ejes x e y respecto al tiempo.
+- Para 2 particulas: 44.1 segundos
+- Para 5 particulas :115.1 segundos
+![particle_trajectories](https://user-images.githubusercontent.com/53497030/66691998-c3fada00-ec70-11e9-9865-4457141eca4e.png)
+
+![particle_velocities](https://user-images.githubusercontent.com/53497030/66691999-c3fada00-ec70-11e9-9a9b-efdc0e600ba3.png)
+
+![particle_positions](https://user-images.githubusercontent.com/53497030/66692000-c3fada00-ec70-11e9-8c07-6eea4be40559.png)
 
 - Para 10 particulas: 251.5 segundos
 ![particle_positions](https://user-images.githubusercontent.com/53497030/66691767-1affaf80-ec6f-11e9-88fe-2a7f9044c3ac.png)
@@ -37,8 +44,7 @@ El primer gráfico, al igual que los nuestros muestra la posicion de las particu
 
 ![particle_velocities](https://user-images.githubusercontent.com/53497030/66691769-1b984600-ec6f-11e9-909c-9c052286b683.png)
 
-- Para 20 particulas
-
+- Para 20 particulas: 477 segundos
 
 
 
