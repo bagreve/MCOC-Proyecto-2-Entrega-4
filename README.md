@@ -19,7 +19,7 @@ Los resultados no representan del todo la realidad, en primer lugar porque no se
 - Con 2 Particula: 10.7 Segundos
 ![dos particulas](https://user-images.githubusercontent.com/53497030/66689184-429b4b80-ec60-11e9-807a-e6c207e085f0.png)
 
-- Con 5 Particulas: 1.8 Segundos
+- Con 5 Particulas: 1 minuto 43 Segundos
 ![cinco  particulas](https://user-images.githubusercontent.com/53497030/66689185-429b4b80-ec60-11e9-85b0-b9f08e570bfd.png)
 
 - Con 10 Particulas: 2.8 Segundos
