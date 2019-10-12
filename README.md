@@ -16,7 +16,7 @@ Los tiempos de procesamiento del codigo son variables debido a que el procesador
 Los graficos expuestos son el comportamiento de las particulas en el eje x e y en el tiempo de 2. segundos, donde se muestran las reacciones con las fuerzas de lift, drag y masa mientras se observan colisiones entre particulas y con el suelo creado por particulas del mismo diametro.
 Los resultados no representan del todo la realidad, en primer lugar porque no se concideran fuerzas como Magnus y Basset, además de no ser del todo reales las constantes de lift, drag ni de masa, idealizandolas. Al momento del impacto se consideraron "resortes" que le aplicaban fuerzas en la direccion opuesta. Se usaron particulas perfectamente esfericas y por último el suelo es una cama de particulas circularesen perfecto orden y sin capacidad de movimiento en ninguna direccion.
 
-- Con 2 Particula: 1.3 Segundos
+- Con 2 Particula: 10.7 Segundos
 ![dos particulas](https://user-images.githubusercontent.com/53497030/66689184-429b4b80-ec60-11e9-807a-e6c207e085f0.png)
 
 - Con 5 Particulas: 1.8 Segundos
@@ -25,7 +25,7 @@ Los resultados no representan del todo la realidad, en primer lugar porque no se
 - Con 10 Particulas: 2.8 Segundos
 
 
-- Con 20 Particulas: 7.2 Segundos
+- Con 20 Particulas: Tras 1 hora 25 minutos se decide detener la operacion.
 
 
 
