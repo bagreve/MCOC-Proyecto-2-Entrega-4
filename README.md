@@ -22,7 +22,7 @@ Los resultados no representan del todo la realidad, en primer lugar porque no se
 - Con 5 Particulas: 1 minuto 43 Segundos
 ![cinco  particulas](https://user-images.githubusercontent.com/53497030/66689185-429b4b80-ec60-11e9-85b0-b9f08e570bfd.png)
 
-- Con 10 Particulas: 2.8 Segundos
+- Con 10 Particulas: 19 minutos 19 segundos
 
 
 - Con 20 Particulas: Tras 1 hora 25 minutos se decide detener la operacion.
