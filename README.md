@@ -27,6 +27,8 @@ Los resultados no representan del todo la realidad, en primer lugar porque no se
 
 - Con 20 Particulas: Tras 1 hora 25 minutos se decide detener la operacion.
 
+## Resultados del profesor:
+
 
 
 
