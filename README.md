@@ -28,9 +28,22 @@ Los resultados no representan del todo la realidad, en primer lugar porque no se
 - Con 20 Particulas: Tras 1 hora 25 minutos se decide detener la operacion.
 
 ## Resultados del profesor:
-El primer gráfico, al igual que los nuestros muestra la posicion de las particulas en los ejes x e y. El segundo, consiste en ver la posicion de las particulas junto con el gradiente de velocidad del flujo y el último grafico es sobre las velocidades de las particulas en los ejes x e y respecto al tiempo.
+
+
 - Para 2 particulas: 44.1 segundos
+El primer grafico muestra en el cuadro de arriba, la distancia recorrida durante el tiempo y el cuadro de abajo, las diferentes alturas alcanzadas por las particulas en el tiempo.
+El segundo grafico, consiste en ver la posicion de las particulas junto con el gradiente de velocidad del flujo
+El último es sobre las velocidades de las particulas en los ejes x e y respecto al tiempo.
+![particle_trajectories](https://user-images.githubusercontent.com/53497030/66692090-8cd8f880-ec71-11e9-9012-365c25500ea5.png)
+
+![particle_velocities](https://user-images.githubusercontent.com/53497030/66692091-8cd8f880-ec71-11e9-8fb7-fffe704fc73f.png)
+
+![particle_positions](https://user-images.githubusercontent.com/53497030/66692092-8cd8f880-ec71-11e9-990c-82a1dad8bc59.png)
+
 - Para 5 particulas :115.1 segundos
+El primer grafico muestra en el cuadro de arriba, la distancia recorrida durante el tiempo y el cuadro de abajo, las diferentes alturas alcanzadas por las particulas en el tiempo.
+El segundo grafico, consiste en ver la posicion de las particulas junto con el gradiente de velocidad del flujo
+El último es sobre las velocidades de las particulas en los ejes x e y respecto al tiempo.
 ![particle_trajectories](https://user-images.githubusercontent.com/53497030/66691998-c3fada00-ec70-11e9-9865-4457141eca4e.png)
 
 ![particle_velocities](https://user-images.githubusercontent.com/53497030/66691999-c3fada00-ec70-11e9-9a9b-efdc0e600ba3.png)
@@ -38,6 +51,7 @@ El primer gráfico, al igual que los nuestros muestra la posicion de las particu
 ![particle_positions](https://user-images.githubusercontent.com/53497030/66692000-c3fada00-ec70-11e9-8c07-6eea4be40559.png)
 
 - Para 10 particulas: 251.5 segundos
+El primer gráfico, al igual que los nuestros muestra la posicion de las particulas en los ejes x e y. El segundo, consiste en ver la posicion de las particulas junto con el gradiente de velocidad del flujo y el último grafico es sobre las velocidades de las particulas en los ejes x e y respecto al tiempo.
 ![particle_positions](https://user-images.githubusercontent.com/53497030/66691767-1affaf80-ec6f-11e9-88fe-2a7f9044c3ac.png)
 
 ![particle_trajectories](https://user-images.githubusercontent.com/53497030/66691768-1affaf80-ec6f-11e9-8ba6-3447e82543c7.png)
@@ -45,7 +59,14 @@ El primer gráfico, al igual que los nuestros muestra la posicion de las particu
 ![particle_velocities](https://user-images.githubusercontent.com/53497030/66691769-1b984600-ec6f-11e9-909c-9c052286b683.png)
 
 - Para 20 particulas: 477 segundos
+El primer grafico muestra en el cuadro de arriba, la distancia recorrida durante el tiempo y el cuadro de abajo, las diferentes alturas alcanzadas por las particulas en el tiempo.
+El segundo grafico, consiste en ver la posicion de las particulas junto con el gradiente de velocidad del flujo
+El último es sobre las velocidades de las particulas en los ejes x e y respecto al tiempo.
+![particle_trajectories](https://user-images.githubusercontent.com/53497030/66692098-97938d80-ec71-11e9-837f-9203b3a8f3a1.png)
 
+![particle_velocities](https://user-images.githubusercontent.com/53497030/66692099-97938d80-ec71-11e9-9065-e4f927af4643.png)
+
+![particle_positions](https://user-images.githubusercontent.com/53497030/66692100-97938d80-ec71-11e9-9ab6-e3de62ac00aa.png)
 
 
 
