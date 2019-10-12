@@ -28,6 +28,16 @@ Los resultados no representan del todo la realidad, en primer lugar porque no se
 - Con 20 Particulas: Tras 1 hora 25 minutos se decide detener la operacion.
 
 ## Resultados del profesor:
+El primer gráfico, al igual que los nuestros muestra la posicion de las particulas en los ejes x e y. El segundo, consiste en ver la posicion de las particulas junto con el gradiente de velocidad del flujo y el último grafico es sobre las velocidades de las particulas en los ejes x e y respecto al tiempo.
+
+- Para 10 particulas: 251.5 segundos
+![particle_positions](https://user-images.githubusercontent.com/53497030/66691767-1affaf80-ec6f-11e9-88fe-2a7f9044c3ac.png)
+
+![particle_trajectories](https://user-images.githubusercontent.com/53497030/66691768-1affaf80-ec6f-11e9-8ba6-3447e82543c7.png)
+
+![particle_velocities](https://user-images.githubusercontent.com/53497030/66691769-1b984600-ec6f-11e9-909c-9c052286b683.png)
+
+- Para 20 particulas
 
 
 
