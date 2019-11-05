@@ -17,7 +17,7 @@ Los graficos expuestos son el comportamiento de las particulas en el eje x e y e
 Los resultados no representan del todo la realidad, en primer lugar porque no se concideran fuerzas como Magnus y Basset, además de no ser del todo reales las constantes de lift, drag ni de masa, idealizandolas. Al momento del impacto se consideraron "resortes" que le aplicaban fuerzas en la direccion opuesta. Se usaron particulas perfectamente esfericas y por último el suelo es una cama de particulas circularesen perfecto orden y sin capacidad de movimiento en ninguna direccion.
 Los cuellos de botella son los ciclos que se tienen que crear para revisar si las particulas chocaron entre ellas recorriendo cada posicion y comparandolas con las otras, los ciclos que revisan si chocaron contra el suelo generando una fuerza variable con la intencidad de un resorte. Es por eso que mientras más perticulas y más tiempo tomará considerablemente más tiempo.   
 
-- Con 2 Particula: 10.7 Segundos
+- Con 2 Particulas: 10.7 Segundos
 ![dos particulas](https://user-images.githubusercontent.com/53497030/66689184-429b4b80-ec60-11e9-807a-e6c207e085f0.png)
 
 - Con 5 Particulas: 1 minuto 43 Segundos
@@ -71,10 +71,13 @@ El último es sobre las velocidades de las particulas en los ejes x e y respecto
 
 
 
-##Codigo 2: optimizado
+## Codigo 2: optimizado
 Este codigo nace del programa anterior pero optimizado con el fin de lograr que mientras mas particulas el tiempo de proseso tarde linealmente más, a diferencia del codigo anterior que era exponencial. Esto se logra gracias a cambiar el funcionamiento de la funcion de choque dentro del odeint que es lo que más tarda el programa anterior, es por eso que se separan las particlas que pueden chocar con las que no, acelerando el proceso ya que al no chocar el odeint se simplifica, otra cosa que se mejora es guardar los datos en un archivo de texto, una mejora factible no aplicada en el codigo es guardarlos en forma de binario.
 
+El programa tiene un paso de tiempo de 0.00001 segundos con un tiempo maximo de 0.05 segundos y se utilizaran los mismos archivos de posicionamiento del codigo anterior con 2, 5, 10 y 20 particulas.
 
-
-
+- Con 2 Particulas: tiempo total 10.7100000381 segundos.
+- Con 5 Particulas: tiempo total 22.5629999638 segundos.
+- Con 10 Particulas: tiempo total 44.6019999981 segundos.
+- Con 20 Particulas: tiempo total 86.361000061 segundos.
 
