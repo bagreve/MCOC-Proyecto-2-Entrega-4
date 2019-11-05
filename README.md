@@ -77,7 +77,14 @@ Este codigo nace del programa anterior pero optimizado con el fin de lograr que 
 El programa tiene un paso de tiempo de 0.00001 segundos con un tiempo maximo de 0.05 segundos y se utilizaran los mismos archivos de posicionamiento del codigo anterior con 2, 5, 10 y 20 particulas.
 
 - Con 2 Particulas: tiempo total 10.7100000381 segundos.
+![Dos particulas](https://user-images.githubusercontent.com/53497030/68216627-ece86380-ffbf-11e9-9833-2f9011dea036.PNG)
+
 - Con 5 Particulas: tiempo total 22.5629999638 segundos.
+![Cinco particulas](https://user-images.githubusercontent.com/53497030/68216628-ece86380-ffbf-11e9-909d-c9874416331d.PNG)
+
 - Con 10 Particulas: tiempo total 44.6019999981 segundos.
+![Dies particulas](https://user-images.githubusercontent.com/53497030/68216634-efe35400-ffbf-11e9-9efc-84ec594fe6fc.PNG)
+
 - Con 20 Particulas: tiempo total 86.361000061 segundos.
+![Veinte particulas](https://user-images.githubusercontent.com/53497030/68216637-efe35400-ffbf-11e9-946c-b76c1015d46e.PNG)
 
