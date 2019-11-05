@@ -72,7 +72,7 @@ El último es sobre las velocidades de las particulas en los ejes x e y respecto
 
 
 ## Codigo 2: optimizado
-Este codigo nace del programa anterior pero optimizado con el fin de lograr que mientras mas particulas el tiempo de proseso tarde linealmente más, a diferencia del codigo anterior que era exponencial. Esto se logra gracias a cambiar el funcionamiento de la funcion de choque dentro del odeint que es lo que más tarda el programa anterior, es por eso que se separan las particlas que pueden chocar con las que no, acelerando el proceso ya que al no chocar el odeint se simplifica, otra cosa que se mejora es guardar los datos en un archivo de texto, una mejora factible no aplicada en el codigo es guardarlos en forma de binario.
+Este codigo nace del programa anterior pero optimizado con el fin de lograr que mientras mas particulas el tiempo de proseso tarde linealmente más, a diferencia del codigo anterior que era exponencial. Esto se logra gracias a cambiar el funcionamiento de la funcion de choque dentro del odeint que es lo que más tarda el programa anterior, es por eso que se separan las particlas que pueden chocar con las que no, acelerando el proceso ya que al no chocar el odeint se simplifica, otra cosa que se mejora es guardar los datos en un archivo binario para luego leerlos y plotearlos con un codigo aparte.
 
 El programa tiene un paso de tiempo de 0.00001 segundos con un tiempo maximo de 0.05 segundos y se utilizaran los mismos archivos de posicionamiento del codigo anterior con 2, 5, 10 y 20 particulas.
 
