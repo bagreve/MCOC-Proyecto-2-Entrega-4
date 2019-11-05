@@ -10,7 +10,7 @@ Tiempos de procesamiento para una simulación son con un dt de 0.0001 segundos, 
 - Procesador: Intel(R)Core(TM) i3-4005U CPU @ 1.7GHz 1.7 GHz
 - Memoria instalada(RAM): 8,00 GB
 - Tipo de sistema: Sistema operativo de 64 bits, procesador x64
-
+## Codigo 1:
 ## Tiempos de Procesamiento
 Los tiempos de procesamiento del codigo son variables debido a que el procesador realiza distintas tareas mientras corre el codigo haciendo que demore algunas veces más y otras menos en finalizar, pero debido al tiempo disponible y la tardanza en procezar todo el codigo se procesará solo una vez cada codigo. El tiempo con diferente cantidad de particulas es exponencial debido a que mientras más particulas se tendran que realizar mas ciclos como es el caso de comparar radios y saber si chocan con el suelo o entre particulas.
 Los graficos expuestos son el comportamiento de las particulas en el eje x e y en el tiempo de 2. segundos, donde se muestran las reacciones con las fuerzas de lift, drag y masa mientras se observan colisiones entre particulas y con el suelo creado por particulas del mismo diametro.
@@ -71,7 +71,10 @@ El último es sobre las velocidades de las particulas en los ejes x e y respecto
 
 
 
-#COD
+##Codigo 2: optimizado
+Este codigo nace del programa anterior pero optimizado con el fin de lograr que mientras mas particulas el tiempo de proseso tarde linealmente más, a diferencia del codigo anterior que era exponencial. Esto se logra gracias a cambiar el funcionamiento de la funcion de choque dentro del odeint que es lo que más tarda el programa anterior, es por eso que se separan las particlas que pueden chocar con las que no, acelerando el proceso ya que al no chocar el odeint se simplifica, otra cosa que se mejora es guardar los datos en un archivo de texto, una mejora factible no aplicada en el codigo es guardarlos en forma de binario.
+
+
 
 
 
